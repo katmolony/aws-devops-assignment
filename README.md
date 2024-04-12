@@ -26,15 +26,15 @@ The `cloudformation_template.yaml` file in this repository defines the infrastru
    git clone https://github.com/katmolony/aws-devops-assignment.git
 
 2. **Deploy the CloudFormation stack using the provided script:**
-
-cd aws-devops-assignment
-./deploy.sh
+    ```sh
+    cd aws-devops-assignment
+    ./deploy.sh
 
 3. **Access the deployed web application using the Load Balancer DNS name.**
 
 4. **When finished, delete the CloudFormation stack using the provided script:**
-
-./delete.sh
+     ```sh
+    ./delete.sh
 
 ## License
 
